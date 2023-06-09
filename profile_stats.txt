@@ -1,0 +1,28 @@
+         112568087 function calls (108379256 primitive calls) in 268.455 seconds
+
+   Ordered by: cumulative time
+   List reduced from 8950 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       72    0.051    0.001  254.953    3.541 main2.py:67(BrainMappingImage)
+       72    0.007    0.000  114.346    1.588 group.py:255(fit)
+     1440    0.005    0.000  114.300    0.079 group.py:545(_fit)
+     1440    0.046    0.000  114.295    0.079 fit.py:390(fit)
+     5760    0.229    0.000  110.270    0.019 _minpack_py.py:549(curve_fit)
+     1440    0.207    0.000  109.934    0.076 fit.py:794(_fit_peaks)
+     1440    0.026    0.000  108.423    0.075 fit.py:884(_fit_peak_guess)
+     1440    0.062    0.000  107.793    0.075 least_squares.py:241(least_squares)
+     1440    0.016    0.000  104.626    0.073 trf.py:112(trf)
+     1440    2.464    0.002  104.588    0.073 trf.py:205(trf_bounds)
+    38463    0.136    0.000   75.440    0.002 least_squares.py:895(jac_wrapped)
+    38463    0.515    0.000   75.304    0.002 _numdiff.py:275(approx_derivative)
+    38463    4.753    0.000   70.665    0.002 _numdiff.py:566(_dense_difference)
+   811533    1.517    0.000   65.427    0.000 _numdiff.py:455(fun_wrapped)
+   894145    3.702    0.000   64.648    0.000 _minpack_py.py:500(func_wrapped)
+   866676   51.929    0.000   60.525    0.000 funcs.py:17(gaussian_function)
+       72    0.001    0.000   57.899    0.804 pyplot.py:1020(savefig)
+       72    0.001    0.000   57.898    0.804 figure.py:3220(savefig)
+       72    0.004    0.000   57.896    0.804 backend_bases.py:2241(print_figure)
+       72    0.000    0.000   57.855    0.804 backend_bases.py:2232(<lambda>)
+
+
